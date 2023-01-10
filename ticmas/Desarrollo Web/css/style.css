@@ -1,0 +1,14 @@
+h1 {
+    color: grey;
+    width: 50;
+    height: 30;
+    font-size: 1em;
+    font-style: normal;
+    padding: 1em;
+    font: roboto;
+    border-style: ridge;
+    border-color: whitesmoke;
+    background-color: whitesmoke ;
+    border-radius: 15%;
+    margin: bottom 5px;
+}
