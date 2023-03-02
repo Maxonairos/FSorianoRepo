@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>practicando con Json</title>
+</head>
+<body>
+    <p id="demo">
+
+    </p>
+    
+  <script>
+        const persona = '{"nombre":"Fabricio", "edad":"32", "nacionalidad": "argentino"}';
+        const obj = JSON.parse(persona);
+        console.log(obj);
+        document.getElementById("demo").innerHTML = "Mi nombre es "+obj.nombre+" ,tengo "+obj.edad+" años y soy "+obj.nacionalidad;
+
+  </script>  
+</body>
+</html>
