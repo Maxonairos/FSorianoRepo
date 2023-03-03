@@ -1,0 +1,77 @@
+function pueden o no tener argumentos
+funciones base vienen con metodos
+operadores matematicos
+
+round redondear
+max
+min
+valores a comprobar ===,>=,>,<,<=
+
+booleanos true-false, se pueden negar con !, 
+conjuncion logicas 
+Y &&
+disyuncion logica
+or || alt-124
+
+string, operadaciones, sumar es igual a concatenar
+convertir en mayusculas, uppercase
+
+condicionales if else elseif 
+condicioneles o expresiones usar RETURN
+
+xor- disyuncion logica excluyente
+
+expresiones matematicas= multiplicaciones y divisiones se efectuan antes que las sumas y restas- la negacion tiene mayor precedencia que las de conjuncion y disyuncion
+
+listas entre corchetes y separados por comas
+listas vacias, listas dentro de listas
+
+listas se pueden agregar itemas, quitar items
+
+primer lugar de la lista es siempre 0
+
+ciclo for 
+
+registros con corchetes, cada variable dentro puede ser llamada
+registros dentro de registros, igual que las listas
+
+Ruby- todos son objetos, hay que declarar sus atributos
+los atributos pueden llamar a otros objetos
+poliformismo
+asi como se compara las variales se pueden comparar los objetos
+
+interfaz es el conjunto de mensajes que puede recibir un objeto
+
+los mensajes con efecto se escriben con ! al final
+los mensajes que devuelven booleanos se escriben con ?
+las que devuelven informacion se escriben normalmente y siempre empiezan en minusculas
+se pueden pasar argumentos en los mensajes al objeto y cambiar sus valores
+
+metodos
+clases e instancias
+herencia
+
+los objetos se inician con module
+modulos van en mayusculas la primera
+metodos en minusculas siempre
+
+invocar dentro del obejeto con self.
+incovar otro otro objeto ejemplo: pepita.comer_lombriz
+
+metodos se definen con def y terminan en end
+
+los objetos pueden tener atributos, los atributos se pueden inicializar dentro del ojbeto o mediante un argumento
+
+para poder saber el valor de un atributo hay que expresarlo mdiante un metodo- a estos se les llama metodos de acceso u accessors
+
+3.times {accion}
+
+forzar poliformismo mediante declaracion de mismos metodos a pesar de que no hagan acciones
+
+
+las acciones que modifican atributos se llaman setters
+
+getters son los que devuelven un valor del atributo
+
+
+encapsular: Si hacemos bien las cosas, quien use nuestros objetos sólo verá lo que necesite para poder interactuar con ellos. A esta idea la conocemos como encapsulamiento, y es esencial para la separación de responsabilidades de la que veníamos hablando.
