@@ -41,34 +41,36 @@ document.getElementById("Data").addEventListener("click", function () {
     document.getElementById("Data").className = "flex-sm-fill text-sm-center nav-link active";
     document.getElementById("Herramientas").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Conocimientos").className = "flex-sm-fill text-sm-center nav-link";
-    document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
+    //document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
     obtain(3); 
-    document.getElementById("intro").style.display="none"
+    document.getElementById("intro").style.display="none";
         
 })
 
 document.getElementById("Conocimientos").addEventListener("click", function () {
     document.getElementById("Conocimientos").className = "flex-sm-fill text-sm-center nav-link active";
     document.getElementById("Herramientas").className = "flex-sm-fill text-sm-center nav-link";
-    document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
+    //document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Data").className = "flex-sm-fill text-sm-center nav-link";
-    obtain(2); 
-    
+    obtain(2);
+    document.getElementById("intro").style.display="none";    
 })        
 
 
 document.getElementById("Herramientas").addEventListener("click", function () {
     document.getElementById("Herramientas").className = "flex-sm-fill text-sm-center nav-link active";
-    document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
+    //document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Conocimientos").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Data").className = "flex-sm-fill text-sm-center nav-link";   
-    obtain(1);  
+    obtain(1);
+    document.getElementById("intro").style.display="none";  
 })
 
-document.getElementById("Contacto").addEventListener("click", function () {    
+/*document.getElementById("Contacto").addEventListener("click", function () {    
     document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link active";
     document.getElementById("info").textContent = contact;
     document.getElementById("Herramientas").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Conocimientos").className = "flex-sm-fill text-sm-center nav-link";
-    document.getElementById("Data").className = "flex-sm-fill text-sm-center nav-link"; 
-})
+    document.getElementById("Data").className = "flex-sm-fill text-sm-center nav-link";
+    document.getElementById("intro").style.display="none"; 
+})*/
