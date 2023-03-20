@@ -1,10 +1,10 @@
 
 
-const dataP = "datos personales"
+/*const dataP = "datos personales"
 const knowledge = "informacion sobre conocimientos"
 const tools = "informacion sobre herramientas"
 const contact = "informacion de contacto"
-const coleccion = ["Data","Herramientas","Conocimientos","Contacto"]
+const coleccion = ["Data","Herramientas","Conocimientos","Contacto"]*/
 
 function obtain(tipo){
     if (tipo==1){
@@ -42,7 +42,7 @@ document.getElementById("Data").addEventListener("click", function () {
     document.getElementById("Herramientas").className = "flex-sm-fill text-sm-center nav-link";
     document.getElementById("Conocimientos").className = "flex-sm-fill text-sm-center nav-link";
     //document.getElementById("Contacto").className = "flex-sm-fill text-sm-center nav-link";
-    obtain(3); 
+    obtain(3) 
     document.getElementById("intro").style.display="none";
         
 })
